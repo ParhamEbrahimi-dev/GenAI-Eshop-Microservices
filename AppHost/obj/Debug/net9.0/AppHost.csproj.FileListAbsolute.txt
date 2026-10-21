@@ -181,3 +181,4 @@ D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\re
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\AppHost.pdb
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\AppHost.genruntimeconfig.cache
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\ref\AppHost.dll
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\AppHost.sourcelink.json

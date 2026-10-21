@@ -1,9 +1,15 @@
 
+using Microsoft.Extensions.Configuration;
+
 var builder = DistributedApplication.CreateBuilder(args);
 
+builder.Configuration.AddUserSecrets<Program>();
+
 // Backing Services
+var pgPassword = builder.AddParameter("pg-password", secret: true);
+
 var postgres = builder
-        .AddPostgres("postgres")
+        .AddPostgres("postgres", pgPassword)
         .WithPgAdmin(pgAdmin => pgAdmin.WithUrlForEndpoint("http", url => url.DisplayText = "PostgreDB Browser"))
         .WithDataVolume()
         .WithLifetime(ContainerLifetime.Persistent);
@@ -16,8 +22,10 @@ var cache = builder
         .WithDataVolume()
         .WithLifetime(ContainerLifetime.Persistent);
 
+var sqlPassword = builder.AddParameter("sql-password", secret: true);
+
 var sqlServer = builder
-        .AddSqlServer("sqlserver")
+        .AddSqlServer("sqlserver", sqlPassword)
         .WithDataVolume()
         .WithLifetime(ContainerLifetime.Persistent);
 
