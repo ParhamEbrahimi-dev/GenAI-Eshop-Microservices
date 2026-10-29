@@ -11,6 +11,7 @@ builder.AddServiceDefaults();
 builder.AddNpgsqlDbContext<CatalogDbContext>(connectionName: "catalogdb");
 
 builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<ProductAIService>();
 
 //Add Chat AI Client
 var credential = new ApiKeyCredential(builder.Configuration["AvalAi:Token"] ?? throw new InvalidOperationException());
