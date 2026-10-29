@@ -10,3 +10,16 @@ D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\n
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\refint\ServiceDefaults.dll
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.pdb
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ref\ServiceDefaults.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\bin\Debug\net9.0\ServiceDefaults.deps.json
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\bin\Debug\net9.0\ServiceDefaults.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\bin\Debug\net9.0\ServiceDefaults.pdb
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.csproj.AssemblyReference.cache
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.AssemblyInfoInputs.cache
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.AssemblyInfo.cs
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.sourcelink.json
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\refint\ServiceDefaults.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.pdb
+D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ref\ServiceDefaults.dll

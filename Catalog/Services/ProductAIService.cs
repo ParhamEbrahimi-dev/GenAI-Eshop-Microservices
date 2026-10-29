@@ -4,7 +4,7 @@ namespace Catalog.Services
 {
     public class ProductAIService(IChatClient chatClient, CatalogDbContext dbContext)
     {
-        public async Task<string> SupportAsync(string userQuery, CancellationToken cancellationToken)
+        public async Task<string> SupportAsync(string userQuery, CancellationToken cancellationToken = default)
         {
             var products = await dbContext.Products
                 .AsNoTracking()
@@ -12,7 +12,7 @@ namespace Catalog.Services
                 .ToListAsync(cancellationToken);
 
             string productCatalog = products.Count == 0 ? "- (No products Available)" :
-                string.Join("\n", products.Select(p => $"- Id:{p.Id} Name:\"{p.Name}\" Price:{p.Price}"));
+                string.Join("\n", products.Select(p => $"- Id:{p.Id} Name:\"{p.Name}\" Price:{p.Price:C}"));
 
             var systemPrompt = $"""
                 You are a helpfull assistant fot an outdoor camping products store.

@@ -10,5 +10,5 @@ public class AppHost
 #pragma warning restore CS8981
 {
     private AppHost() { }
-    public static string ProjectPath => """D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\AppHost""";
+    public static string ProjectPath => """D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost""";
 }

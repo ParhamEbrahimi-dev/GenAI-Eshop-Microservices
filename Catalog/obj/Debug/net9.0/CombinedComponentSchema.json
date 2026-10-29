@@ -564,5 +564,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\Parham-pc\\.nuget\\packages\\system.clientmodel\\1.15.0\\ConfigurationSchema.json;C:\\Users\\Parham-pc\\.nuget\\packages\\openai\\2.14.0\\ConfigurationSchema.json;C:\\Users\\Parham-pc\\.nuget\\packages\\aspire.npgsql.entityframeworkcore.postgresql\\9.4.1\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\Parham\\.nuget\\packages\\system.clientmodel\\1.15.0\\ConfigurationSchema.json;C:\\Users\\Parham\\.nuget\\packages\\openai\\2.14.0\\ConfigurationSchema.json;C:\\Users\\Parham\\.nuget\\packages\\aspire.npgsql.entityframeworkcore.postgresql\\9.4.1\\ConfigurationSchema.json"
 }
