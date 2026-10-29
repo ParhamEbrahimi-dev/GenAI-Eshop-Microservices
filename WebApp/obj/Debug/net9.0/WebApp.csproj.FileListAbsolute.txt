@@ -231,8 +231,6 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\o
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\t4a1y2uem6-{0}-h1s4sie4z3-h1s4sie4z3.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\hbwnts94td-{0}-63fj8s7r0e-63fj8s7r0e.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\4qcwb0p2n2-{0}-0j3bgjxly4-0j3bgjxly4.gz
-D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-g99s26oj9s-g99s26oj9s.gz
-D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-g99s26oj9s-g99s26oj9s.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\staticwebassets.build.json
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -245,3 +243,6 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\refint\WebAp
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\WebApp.pdb
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\WebApp.genruntimeconfig.cache
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\ref\WebApp.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Components\ChatBox.razor.rz.scp.css
+D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-nzxqagee6a-nzxqagee6a.gz
+D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-nzxqagee6a-nzxqagee6a.gz

@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\catalog\\catalog.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|solutionrelative:catalog\\catalog.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\catalog\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|solutionrelative:catalog\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Catalog.http",
-              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.http",
-              "RelativeDocumentMoniker": "Catalog\\Catalog.http",
-              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.http",
-              "RelativeToolTip": "Catalog\\Catalog.http",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwDMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-10-29T07:52:54.008Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductEndpoints.cs",
-              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Endpoints\\ProductEndpoints.cs",
-              "RelativeDocumentMoniker": "Catalog\\Endpoints\\ProductEndpoints.cs",
-              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Endpoints\\ProductEndpoints.cs",
-              "RelativeToolTip": "Catalog\\Endpoints\\ProductEndpoints.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwFIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T07:44:30.768Z",
-              "EditorCaption": ""
             }
           ]
         }
