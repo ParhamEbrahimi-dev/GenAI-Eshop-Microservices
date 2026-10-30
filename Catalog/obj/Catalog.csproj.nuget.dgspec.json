@@ -61,6 +61,14 @@
               "target": "Package",
               "version": "[9.4.1, )"
             },
+            "Aspire.Qdrant.Client": {
+              "target": "Package",
+              "version": "[9.4.2, )"
+            },
+            "CommunityToolkit.VectorData.Qdrant": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

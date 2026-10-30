@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\webapp\\components\\chatbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\chatbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\webapp\\apiclients\\catalogapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\apiclients\\catalogapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B549F40A-81EF-404A-A85B-20F3254B0A37}|AppHost\\AppHost.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B549F40A-81EF-404A-A85B-20F3254B0A37}|AppHost\\AppHost.csproj|solutionrelative:apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChatBox.razor",
-              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\WebApp\\Components\\ChatBox.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\ChatBox.razor",
-              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\WebApp\\Components\\ChatBox.razor",
-              "RelativeToolTip": "WebApp\\Components\\ChatBox.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-29T08:25:41.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CatalogApiClient.cs",
-              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\WebApp\\ApiClients\\CatalogApiClient.cs",
-              "RelativeDocumentMoniker": "WebApp\\ApiClients\\CatalogApiClient.cs",
-              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\WebApp\\ApiClients\\CatalogApiClient.cs",
-              "RelativeToolTip": "WebApp\\ApiClients\\CatalogApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABXAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "AppHost\\Program.cs",
+              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\Program.cs",
+              "RelativeToolTip": "AppHost\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T08:21:45.775Z",
+              "WhenOpened": "2026-10-30T09:11:06.066Z",
               "EditorCaption": ""
             }
           ]

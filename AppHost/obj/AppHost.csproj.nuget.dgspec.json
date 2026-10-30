@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[9.4.1, )"
             },
+            "Aspire.Hosting.Qdrant": {
+              "target": "Package",
+              "version": "[9.4.2, )"
+            },
             "Aspire.Hosting.Redis": {
               "target": "Package",
               "version": "[9.4.1, )"

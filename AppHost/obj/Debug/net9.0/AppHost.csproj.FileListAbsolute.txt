@@ -366,3 +366,5 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\refint\AppH
 D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\AppHost.pdb
 D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\AppHost.genruntimeconfig.cache
 D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost\obj\Debug\net9.0\ref\AppHost.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost\bin\Debug\net9.0\Aspire.Hosting.Qdrant.dll
+D:\dotNet\Project\GenAI-Eshop-Microservices\AppHost\bin\Debug\net9.0\Qdrant.Client.dll
