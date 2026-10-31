@@ -31,11 +31,15 @@ var sqlServer = builder
 
 var orderdb = sqlServer.AddDatabase("orderdb");
 
+var vectordb = builder.AddQdrant("vectordb").WithDataVolume();
+
 // Projects
 var catalog = builder
         .AddProject<Projects.Catalog>("catalog")
         .WithReference(catalogdb)
-        .WaitFor(catalogdb);
+        .WaitFor(catalogdb)
+        .WithReference(vectordb)
+        .WaitFor(vectordb);
 
 var basket = builder
         .AddProject<Projects.Basket>("basket")

@@ -10,6 +10,7 @@
         "dependencies": {
           "Aspire.Hosting.AppHost": "9.4.1",
           "Aspire.Hosting.PostgreSQL": "9.4.1",
+          "Aspire.Hosting.Qdrant": "9.4.2",
           "Aspire.Hosting.Redis": "9.4.1",
           "Aspire.Hosting.SqlServer": "9.4.1"
         },
@@ -17,7 +18,7 @@
           "AppHost.dll": {}
         }
       },
-      "Aspire.Hosting/9.4.1": {
+      "Aspire.Hosting/9.4.2": {
         "dependencies": {
           "AspNetCore.HealthChecks.Uris": "9.0.0",
           "Google.Protobuf": "3.31.1",
@@ -44,8 +45,8 @@
         },
         "runtime": {
           "lib/net8.0/Aspire.Hosting.dll": {
-            "assemblyVersion": "9.4.1.0",
-            "fileVersion": "9.400.125.40804"
+            "assemblyVersion": "9.4.2.0",
+            "fileVersion": "9.400.225.42812"
           }
         },
         "resources": {
@@ -93,7 +94,7 @@
       "Aspire.Hosting.AppHost/9.4.1": {
         "dependencies": {
           "AspNetCore.HealthChecks.Uris": "9.0.0",
-          "Aspire.Hosting": "9.4.1",
+          "Aspire.Hosting": "9.4.2",
           "Google.Protobuf": "3.31.1",
           "Grpc.AspNetCore": "2.71.0",
           "Grpc.Net.ClientFactory": "2.71.0",
@@ -127,7 +128,7 @@
         "dependencies": {
           "AspNetCore.HealthChecks.NpgSql": "9.0.0",
           "AspNetCore.HealthChecks.Uris": "9.0.0",
-          "Aspire.Hosting": "9.4.1",
+          "Aspire.Hosting": "9.4.2",
           "Google.Protobuf": "3.31.1",
           "Grpc.AspNetCore": "2.71.0",
           "Grpc.Net.ClientFactory": "2.71.0",
@@ -157,11 +158,45 @@
           }
         }
       },
+      "Aspire.Hosting.Qdrant/9.4.2": {
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting": "9.4.2",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.7",
+          "Microsoft.Extensions.Hosting": "9.0.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Http": "9.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Options": "9.0.7",
+          "Microsoft.Extensions.Primitives": "9.0.7",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Qdrant.Client": "1.14.1",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Qdrant.dll": {
+            "assemblyVersion": "9.4.2.0",
+            "fileVersion": "9.400.225.42812"
+          }
+        }
+      },
       "Aspire.Hosting.Redis/9.4.1": {
         "dependencies": {
           "AspNetCore.HealthChecks.Redis": "9.0.0",
           "AspNetCore.HealthChecks.Uris": "9.0.0",
-          "Aspire.Hosting": "9.4.1",
+          "Aspire.Hosting": "9.4.2",
           "Google.Protobuf": "3.31.1",
           "Grpc.AspNetCore": "2.71.0",
           "Grpc.Net.ClientFactory": "2.71.0",
@@ -196,7 +231,7 @@
         "dependencies": {
           "AspNetCore.HealthChecks.SqlServer": "9.0.0",
           "AspNetCore.HealthChecks.Uris": "9.0.0",
-          "Aspire.Hosting": "9.4.1",
+          "Aspire.Hosting": "9.4.2",
           "Azure.Core": "1.47.0",
           "Azure.Identity": "1.14.2",
           "Google.Protobuf": "3.31.1",
@@ -1246,6 +1281,18 @@
           }
         }
       },
+      "Qdrant.Client/1.14.1": {
+        "dependencies": {
+          "Google.Protobuf": "3.31.1",
+          "Grpc.Net.Client": "2.71.0"
+        },
+        "runtime": {
+          "lib/net6.0/Qdrant.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.14.1.0"
+          }
+        }
+      },
       "Semver/3.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.7"
@@ -1433,12 +1480,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Aspire.Hosting/9.4.1": {
+    "Aspire.Hosting/9.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ygCFRMlU1VqMIXvlSP2qrOOw67Jk+103x+JqxxhceGwIzGI2SPeRnrlcwF4VvDqPrH98qpT4qNh4c7Whe8WaJg==",
-      "path": "aspire.hosting/9.4.1",
-      "hashPath": "aspire.hosting.9.4.1.nupkg.sha512"
+      "sha512": "sha512-waVBNcgPYbu4PHfzLn5HQPCdxx3hiH7jDrKCgtBb7Ih6BN/W/vkidcntNC9eL2ictCDWAwLnpi9FUyQN8N16mw==",
+      "path": "aspire.hosting/9.4.2",
+      "hashPath": "aspire.hosting.9.4.2.nupkg.sha512"
     },
     "Aspire.Hosting.AppHost/9.4.1": {
       "type": "package",
@@ -1453,6 +1500,13 @@
       "sha512": "sha512-Z0i3SkHqnOyX+UlCc8aoGOfn9pJWtnAJr9S2/fifRabL20tlTft5nFqxc+vhlovqb5at9UpAJkSbeW2fbqu9aQ==",
       "path": "aspire.hosting.postgresql/9.4.1",
       "hashPath": "aspire.hosting.postgresql.9.4.1.nupkg.sha512"
+    },
+    "Aspire.Hosting.Qdrant/9.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1VGVc/qifKh/w9ZRqrXIABQntLRRrEdN5lzW/dJazxATaQFTy2Rvh4n8g9ZCynFpvFO+dmjn7w76m88hZIo6Qg==",
+      "path": "aspire.hosting.qdrant/9.4.2",
+      "hashPath": "aspire.hosting.qdrant.9.4.2.nupkg.sha512"
     },
     "Aspire.Hosting.Redis/9.4.1": {
       "type": "package",
@@ -1992,6 +2046,13 @@
       "sha512": "sha512-ImAKLH6qVDjj0vzw+QxMYxxT/NhQrHK+sZE4GT5JbIfDBOrMDbE4we3BR6SqUQCJuKdjOKf3smUjxIgOUUfNVw==",
       "path": "polly.core/8.6.2",
       "hashPath": "polly.core.8.6.2.nupkg.sha512"
+    },
+    "Qdrant.Client/1.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edt3wFh6kQ+gSCt2DubLzYDO8SJ39Nqapn3tFMQ6cjdBZXD3qQTFVfXVJPzsCPWsWP9DJxe6B9VpMwmxgXPkGQ==",
+      "path": "qdrant.client/1.14.1",
+      "hashPath": "qdrant.client.1.14.1.nupkg.sha512"
     },
     "Semver/3.0.0": {
       "type": "package",

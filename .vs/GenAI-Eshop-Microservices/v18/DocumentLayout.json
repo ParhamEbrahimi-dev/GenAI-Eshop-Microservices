@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B549F40A-81EF-404A-A85B-20F3254B0A37}|AppHost\\AppHost.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\apphost\\apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B549F40A-81EF-404A-A85B-20F3254B0A37}|AppHost\\AppHost.csproj|solutionrelative:apphost\\apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B549F40A-81EF-404A-A85B-20F3254B0A37}|AppHost\\AppHost.csproj|d:\\dotnet\\project\\genai-eshop-microservices\\apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B549F40A-81EF-404A-A85B-20F3254B0A37}|AppHost\\AppHost.csproj|solutionrelative:apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppHost",
+              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
+              "RelativeDocumentMoniker": "AppHost\\AppHost.csproj",
+              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj*",
+              "RelativeToolTip": "AppHost\\AppHost.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-30T09:27:57.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "AppHost\\Program.cs",
+              "ToolTip": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\Program.cs",
+              "RelativeToolTip": "AppHost\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAjwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T09:11:06.066Z",
+              "EditorCaption": ""
             }
           ]
         }

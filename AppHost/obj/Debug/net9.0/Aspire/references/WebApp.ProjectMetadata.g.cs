@@ -9,5 +9,5 @@ namespace Projects;
 public class WebApp : global::Aspire.Hosting.IProjectMetadata
 #pragma warning restore CS8981
 {
-    public string ProjectPath => """D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\WebApp.csproj""";
+    public string ProjectPath => """D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\WebApp.csproj""";
 }

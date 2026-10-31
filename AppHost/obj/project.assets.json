@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net9.0": {
       "Aspire.Dashboard.Sdk.win-x64/9.4.1": {
@@ -13,7 +13,7 @@
           "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets": {}
         }
       },
-      "Aspire.Hosting/9.4.1": {
+      "Aspire.Hosting/9.4.2": {
         "type": "package",
         "dependencies": {
           "AspNetCore.HealthChecks.Uris": "9.0.0",
@@ -184,6 +184,46 @@
         },
         "runtime": {
           "lib/net8.0/Aspire.Hosting.PostgreSQL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Aspire.Hosting.Qdrant/9.4.2": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting": "9.4.2",
+          "Google.Protobuf": "3.31.1",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.18",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.2",
+          "Qdrant.Client": "1.14.1",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.7"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Qdrant.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Qdrant.dll": {
             "related": ".xml"
           }
         }
@@ -1768,6 +1808,23 @@
           }
         }
       },
+      "Qdrant.Client/1.14.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.31.0",
+          "Grpc.Net.Client": "2.71.0"
+        },
+        "compile": {
+          "lib/net6.0/Qdrant.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Qdrant.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Semver/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -2217,17 +2274,17 @@
         "tools/zh-Hant/Aspire.Dashboard.resources.dll"
       ]
     },
-    "Aspire.Hosting/9.4.1": {
-      "sha512": "ygCFRMlU1VqMIXvlSP2qrOOw67Jk+103x+JqxxhceGwIzGI2SPeRnrlcwF4VvDqPrH98qpT4qNh4c7Whe8WaJg==",
+    "Aspire.Hosting/9.4.2": {
+      "sha512": "waVBNcgPYbu4PHfzLn5HQPCdxx3hiH7jDrKCgtBb7Ih6BN/W/vkidcntNC9eL2ictCDWAwLnpi9FUyQN8N16mw==",
       "type": "package",
-      "path": "aspire.hosting/9.4.1",
+      "path": "aspire.hosting/9.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.9.4.1.nupkg.sha512",
+        "aspire.hosting.9.4.2.nupkg.sha512",
         "aspire.hosting.nuspec",
         "lib/net8.0/Aspire.Hosting.dll",
         "lib/net8.0/Aspire.Hosting.xml",
@@ -2306,6 +2363,22 @@
         "aspire.hosting.postgresql.nuspec",
         "lib/net8.0/Aspire.Hosting.PostgreSQL.dll",
         "lib/net8.0/Aspire.Hosting.PostgreSQL.xml"
+      ]
+    },
+    "Aspire.Hosting.Qdrant/9.4.2": {
+      "sha512": "1VGVc/qifKh/w9ZRqrXIABQntLRRrEdN5lzW/dJazxATaQFTy2Rvh4n8g9ZCynFpvFO+dmjn7w76m88hZIo6Qg==",
+      "type": "package",
+      "path": "aspire.hosting.qdrant/9.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.qdrant.9.4.2.nupkg.sha512",
+        "aspire.hosting.qdrant.nuspec",
+        "lib/net8.0/Aspire.Hosting.Qdrant.dll",
+        "lib/net8.0/Aspire.Hosting.Qdrant.xml"
       ]
     },
     "Aspire.Hosting.Redis/9.4.1": {
@@ -4405,6 +4478,29 @@
         "polly.core.nuspec"
       ]
     },
+    "Qdrant.Client/1.14.1": {
+      "sha512": "Edt3wFh6kQ+gSCt2DubLzYDO8SJ39Nqapn3tFMQ6cjdBZXD3qQTFVfXVJPzsCPWsWP9DJxe6B9VpMwmxgXPkGQ==",
+      "type": "package",
+      "path": "qdrant.client/1.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net462/Qdrant.Client.dll",
+        "lib/net462/Qdrant.Client.pdb",
+        "lib/net462/Qdrant.Client.xml",
+        "lib/net6.0/Qdrant.Client.dll",
+        "lib/net6.0/Qdrant.Client.pdb",
+        "lib/net6.0/Qdrant.Client.xml",
+        "lib/netstandard2.0/Qdrant.Client.dll",
+        "lib/netstandard2.0/Qdrant.Client.pdb",
+        "lib/netstandard2.0/Qdrant.Client.xml",
+        "nuget-icon.png",
+        "qdrant.client.1.14.1.nupkg.sha512",
+        "qdrant.client.nuspec"
+      ]
+    },
     "Semver/3.0.0": {
       "sha512": "9jZCicsVgTebqkAujRWtC9J1A5EQVlu0TVKHcgoCuv345ve5DYf4D1MjhKEnQjdRZo6x/vdv6QQrYFs7ilGzLA==",
       "type": "package",
@@ -4869,31 +4965,29 @@
       "Aspire.Hosting.AppHost >= 9.4.1",
       "Aspire.Hosting.Orchestration.win-x64 >= 9.4.1",
       "Aspire.Hosting.PostgreSQL >= 9.4.1",
+      "Aspire.Hosting.Qdrant >= 9.4.2",
       "Aspire.Hosting.Redis >= 9.4.1",
       "Aspire.Hosting.SqlServer >= 9.4.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Parham-pc\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages": {},
+    "C:\\Users\\Parham\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
+      "projectUniqueName": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
       "projectName": "AppHost",
-      "projectPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
-      "packagesPath": "C:\\Users\\Parham-pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\obj\\",
+      "projectPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
+      "packagesPath": "C:\\Users\\Parham\\.nuget\\packages\\",
+      "outputPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Parham-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 25.2.config",
+        "C:\\Users\\Parham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4902,11 +4996,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 25.2\\Components\\System\\Components\\Packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://package-mirror.liara.ir/repository/nuget/index.json": {}
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -4921,10 +5016,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "Aspire.Dashboard.Sdk.win-x64": {
@@ -4944,6 +5040,10 @@
           "Aspire.Hosting.PostgreSQL": {
             "target": "Package",
             "version": "[9.4.1, )"
+          },
+          "Aspire.Hosting.Qdrant": {
+            "target": "Package",
+            "version": "[9.4.2, )"
           },
           "Aspire.Hosting.Redis": {
             "target": "Package",
@@ -4970,7 +5070,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
