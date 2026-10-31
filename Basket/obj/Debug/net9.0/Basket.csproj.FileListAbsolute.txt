@@ -155,3 +155,4 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\Basket\obj\Debug\net9.0\refint\Baske
 D:\dotNet\Project\GenAI-Eshop-Microservices\Basket\obj\Debug\net9.0\Basket.pdb
 D:\dotNet\Project\GenAI-Eshop-Microservices\Basket\obj\Debug\net9.0\Basket.genruntimeconfig.cache
 D:\dotNet\Project\GenAI-Eshop-Microservices\Basket\obj\Debug\net9.0\ref\Basket.dll
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\Basket\obj\Debug\net9.0\Basket.sourcelink.json

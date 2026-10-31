@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|d:\\inherit\\modular\\project\\genai-eshop-microservices\\catalog\\services\\productaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|solutionrelative:catalog\\services\\productaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|d:\\inherit\\modular\\project\\genai-eshop-microservices\\catalog\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|solutionrelative:catalog\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|d:\\inherit\\modular\\project\\genai-eshop-microservices\\catalog\\models\\productvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|solutionrelative:catalog\\models\\productvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|d:\\inherit\\modular\\project\\genai-eshop-microservices\\catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F761E8-674E-7804-3E8F-374E41B75BE9}|Catalog\\Catalog.csproj|solutionrelative:catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +35,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductAIService.cs",
+              "DocumentMoniker": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Services\\ProductAIService.cs",
+              "RelativeDocumentMoniker": "Catalog\\Services\\ProductAIService.cs",
+              "ToolTip": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Services\\ProductAIService.cs",
+              "RelativeToolTip": "Catalog\\Services\\ProductAIService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwGkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T03:38:51.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Catalog\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Services\\ProductService.cs",
+              "RelativeToolTip": "Catalog\\Services\\ProductService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T03:35:08.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductVector.cs",
+              "DocumentMoniker": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Models\\ProductVector.cs",
+              "RelativeDocumentMoniker": "Catalog\\Models\\ProductVector.cs",
+              "ToolTip": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Models\\ProductVector.cs",
+              "RelativeToolTip": "Catalog\\Models\\ProductVector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T03:23:00.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Program.cs",
+              "RelativeDocumentMoniker": "Catalog\\Program.cs",
+              "ToolTip": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Program.cs",
+              "RelativeToolTip": "Catalog\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T03:17:25.108Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,8 +1,13 @@
 ﻿using Microsoft.Extensions.AI;
+using Microsoft.Extensions.VectorData;
 
 namespace Catalog.Services
 {
-    public class ProductAIService(IChatClient chatClient, CatalogDbContext dbContext)
+    public class ProductAIService(
+        IChatClient chatClient,
+        IEmbeddingGenerator<string, Embedding<float>> embeddingGenerator,
+        VectorStoreCollection<ulong, ProductVector> productVectorCollection,
+        CatalogDbContext dbContext)
     {
         public async Task<string> SupportAsync(string userQuery, CancellationToken cancellationToken = default)
         {
@@ -38,10 +43,69 @@ namespace Catalog.Services
                 new (ChatRole.User,userQuery)
             };
 
-            var response = await chatClient.GetResponseAsync(chatHistory,cancellationToken: cancellationToken);
+            var response = await chatClient.GetResponseAsync(chatHistory, cancellationToken: cancellationToken);
 
             return response.Text ?? "No description available";
 
         }
+
+        public async Task InitEmbeddingAsync()
+        {
+            await productVectorCollection.EnsureCollectionExistsAsync();
+
+            var products = await dbContext.Products.ToListAsync();
+
+            foreach (var product in products)
+            {
+                var productInfo = $"[{product.Name}] is a product that costs [{product.Price}] and is described as [{product.Description}]";
+
+                var productVector = new ProductVector
+                {
+                    Id = (ulong)product.Id,
+                    Name = product.Name,
+                    Description = product.Description,
+                    Price = (double)product.Price,
+                    ImageUrl = product.ImageUrl,
+                    Vector = await embeddingGenerator.GenerateVectorAsync(productInfo)
+                };
+
+                await productVectorCollection.UpsertAsync(productVector);
+            }
+        }
+        public async Task<IEnumerable<Product>> SearchProductAsync(string query)
+        {
+            //Step1: Use IEmbeddingGenerator to turn the user's query to the vector.
+            //Step2: Use IVectorStore to Search Qdrant for the most similar product vectors.
+            //Step3: Get the IDs of the matching products from the search result.
+            //Step4: Retrieve the full product details from our main PostgresSQL database for those IDs.
+            //Step5: Return the list of Products.
+
+            if (!await productVectorCollection.CollectionExistsAsync())
+            {
+                await InitEmbeddingAsync();
+            }
+
+            var queryEmbedding = await embeddingGenerator.GenerateVectorAsync(query);
+
+            var results = productVectorCollection.SearchAsync(queryEmbedding, 1);
+
+            List<Product> products = [];
+
+            await foreach (var resultItem in results)
+            {
+                products.Add(new Product
+                {
+                    Id = (int)resultItem.Record.Id,
+                    Name = resultItem.Record.Name,
+                    Description = resultItem.Record.Description,
+                    Price = (decimal)resultItem.Record.Price,
+                    ImageUrl = resultItem.Record.ImageUrl,
+                });
+            }
+
+            return products;
+
+        }
     }
+
 }
