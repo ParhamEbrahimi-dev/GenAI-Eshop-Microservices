@@ -23,3 +23,4 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\Ser
 D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\refint\ServiceDefaults.dll
 D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.pdb
 D:\dotNet\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ref\ServiceDefaults.dll
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\ServiceDefaults\obj\Debug\net9.0\ServiceDefaults.sourcelink.json

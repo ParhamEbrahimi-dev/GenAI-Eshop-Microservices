@@ -107,8 +107,6 @@ D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\com
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\t4a1y2uem6-{0}-h1s4sie4z3-h1s4sie4z3.gz
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\hbwnts94td-{0}-4d85u1mtcx-4d85u1mtcx.gz
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\4qcwb0p2n2-{0}-0j3bgjxly4-0j3bgjxly4.gz
-D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-g99s26oj9s-g99s26oj9s.gz
-D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-g99s26oj9s-g99s26oj9s.gz
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\staticwebassets.build.json
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -246,3 +244,7 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\ref\WebApp.d
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Components\ChatBox.razor.rz.scp.css
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-nzxqagee6a-nzxqagee6a.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-nzxqagee6a-nzxqagee6a.gz
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\WebApp.sourcelink.json
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Components\ChatBox.razor.rz.scp.css
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-nzxqagee6a-nzxqagee6a.gz
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-nzxqagee6a-nzxqagee6a.gz

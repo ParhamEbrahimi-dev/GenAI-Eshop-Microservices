@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net9.0": {
       "Aspire.Dashboard.Sdk.win-x64/9.4.1": {
@@ -4971,23 +4971,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Parham\\.nuget\\packages\\": {},
+    "C:\\Users\\Parham-pc\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
+      "projectUniqueName": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
       "projectName": "AppHost",
-      "projectPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
-      "packagesPath": "C:\\Users\\Parham\\.nuget\\packages\\",
-      "outputPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\obj\\",
+      "projectPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\AppHost.csproj",
+      "packagesPath": "C:\\Users\\Parham-pc\\.nuget\\packages\\",
+      "outputPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Parham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Parham-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 25.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4996,12 +4999,11 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+        "C:\\Program Files\\DevExpress 25.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
-          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -5016,11 +5018,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
-        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "Aspire.Dashboard.Sdk.win-x64": {
@@ -5070,7 +5071,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

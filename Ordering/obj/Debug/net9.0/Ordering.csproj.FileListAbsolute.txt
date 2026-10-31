@@ -409,3 +409,4 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\Ordering\obj\Debug\net9.0\refint\Ord
 D:\dotNet\Project\GenAI-Eshop-Microservices\Ordering\obj\Debug\net9.0\Ordering.pdb
 D:\dotNet\Project\GenAI-Eshop-Microservices\Ordering\obj\Debug\net9.0\Ordering.genruntimeconfig.cache
 D:\dotNet\Project\GenAI-Eshop-Microservices\Ordering\obj\Debug\net9.0\ref\Ordering.dll
+D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\Ordering\obj\Debug\net9.0\Ordering.sourcelink.json

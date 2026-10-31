@@ -9,5 +9,5 @@ namespace Projects;
 public class Catalog : global::Aspire.Hosting.IProjectMetadata
 #pragma warning restore CS8981
 {
-    public string ProjectPath => """D:\dotNet\Project\GenAI-Eshop-Microservices\Catalog\Catalog.csproj""";
+    public string ProjectPath => """D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\Catalog\Catalog.csproj""";
 }
