@@ -12,21 +12,21 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9f51c609-0365-40b5-8354-2c29415f2490")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Parham-pc\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\too" +
-    "ls\\dcp.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Parham-pc\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\too" +
-    "ls\\ext\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Parham-pc\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\too" +
-    "ls\\ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Parham\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\tools\\" +
+    "dcp.exe")]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Parham\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\tools\\" +
+    "ext\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Parham\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.4.1\\tools\\" +
+    "ext\\bin\\")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "AppHost.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Parham-pc\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.4.1\\tools\\Aspir" +
-    "e.Dashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Parham\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.4.1\\tools\\Aspire.D" +
+    "ashboard.exe")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b52f1f2e41c6a162e00b60c6f047f7b6b9f661f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d077c8be7b9a83b4f9ac8738a6a7259db88feebb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

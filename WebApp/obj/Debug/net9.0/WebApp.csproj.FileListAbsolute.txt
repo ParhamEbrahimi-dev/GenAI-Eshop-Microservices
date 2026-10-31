@@ -184,7 +184,6 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Co
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\bundle\WebApp.styles.css
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\projectbundle\WebApp.bundle.scp.css
-D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lan9lomf3b-{0}-w7mf952350-w7mf952350.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\siwt0tsb8r-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lfp1ivp953-{0}-c2jlpeoesf-c2jlpeoesf.gz
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\ldq9vexem1-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -242,9 +241,10 @@ D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\WebApp.pdb
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\WebApp.genruntimeconfig.cache
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\ref\WebApp.dll
 D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Components\ChatBox.razor.rz.scp.css
-D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-nzxqagee6a-nzxqagee6a.gz
-D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-nzxqagee6a-nzxqagee6a.gz
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\WebApp.sourcelink.json
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\scopedcss\Components\ChatBox.razor.rz.scp.css
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-nzxqagee6a-nzxqagee6a.gz
 D:\Inherit\Modular\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-nzxqagee6a-nzxqagee6a.gz
+D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lan9lomf3b-{0}-9acv3en18j-9acv3en18j.gz
+D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\nrt9wfei13-{0}-hf0jyjtngi-hf0jyjtngi.gz
+D:\dotNet\Project\GenAI-Eshop-Microservices\WebApp\obj\Debug\net9.0\compressed\lcaz16i7pu-{0}-hf0jyjtngi-hf0jyjtngi.gz

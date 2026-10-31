@@ -10,6 +10,17 @@
 
 <p>Here are some of our amazing outdoor products that you can purchase.</p>
 
+<div class="form-group">    
+    <div class="input-group mb-2">
+        <input type="text" id="search" class="form-control" @bind="searchTerm" placeholder="Enter search term..." />
+        <button id="btnSearch" class="btn btn-primary" @onclick="DoSearch" type="submit">Search</button>
+    </div>
+    <div class="form-check form-switch mb-1">
+        <InputCheckbox id="aiSearchCheckBox" @bind-Value="aiSearch" />
+        <label class="form-check-label" for="aiSearch">Use Semantic Search</label>
+    </div>    
+</div>
+
 @if (showNotification)
 {
     <div class="alert alert-success" role="alert">
@@ -23,7 +34,7 @@
 }
 else if (products.Count == 0)
 {
-    <p><em>There is a problem loading our products. Please try again later.</em></p>
+    <p><em>No products are available at this time.</em></p>
 }
 else
 {
@@ -57,9 +68,22 @@ else
     private List<Product>? products;
     private bool showNotification;
 
+    private string searchTerm = default!;
+    private bool aiSearch = false;
+
     protected override async Task OnInitializedAsync()
     {
         products = await CatalogApiClient.GetProducts();
+    }
+
+    private async Task DoSearch(MouseEventArgs e)
+    {
+        if(string.IsNullOrWhiteSpace(searchTerm))
+        {
+            products = await CatalogApiClient.GetProducts();
+            return;
+        }
+        products = await CatalogApiClient.SearchProducts(searchTerm, aiSearch);
     }
 
     private async Task AddToCart(Product product)

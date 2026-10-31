@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj": {}
+    "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj": {
+    "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj",
-        "packagesPath": "C:\\Users\\Parham-pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\Catalog\\obj\\",
+        "projectPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\Parham\\.nuget\\packages\\",
+        "outputPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Parham-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 25.2.config",
+          "C:\\Users\\Parham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,15 +26,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 25.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj": {
-                "projectPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj"
+              "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj": {
+                "projectPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj"
               }
             }
           }
@@ -51,10 +50,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": {
@@ -103,26 +103,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj": {
+    "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj",
         "projectName": "ServiceDefaults",
-        "projectPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\Parham-pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Inherit\\Modular\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\obj\\",
+        "projectPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\Parham\\.nuget\\packages\\",
+        "outputPath": "D:\\dotNet\\Project\\GenAI-Eshop-Microservices\\ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Parham-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 25.2.config",
+          "C:\\Users\\Parham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,11 +129,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 25.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -150,10 +149,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Extensions.Http.Resilience": {
@@ -204,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

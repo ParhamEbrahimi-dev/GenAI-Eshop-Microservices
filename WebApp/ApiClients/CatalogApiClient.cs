@@ -14,9 +14,16 @@ public class CatalogApiClient(HttpClient httpClient)
         return response!;
     }    
 
-    public async Task<List<Product>?> SearchProducts(string query)
+    public async Task<List<Product>?> SearchProducts(string query,bool aiSearch)
     {
-        return await httpClient.GetFromJsonAsync<List<Product>>($"/products/search/{query}");       
+        if(aiSearch)
+        {
+            return await httpClient.GetFromJsonAsync<List<Product>>($"/products/aisearch/{query}");
+        }
+        else
+        {
+            return await httpClient.GetFromJsonAsync<List<Product>>($"/products/search/{query}");       
+        }
     }
 
     public async Task<string?> SupportAgent(string query)
